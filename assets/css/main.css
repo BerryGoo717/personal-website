@@ -2958,26 +2958,13 @@ input, select, textarea {
 				width: 30%;
 			}
 
-			.spotlights > section > .image-wrap {
-				background-position: center center;
-				background-size: cover;
-				border-radius: 0;
-				display: block;
-				position: relative;
-				width: 30%;
-			}
-
-				.spotlights > section > .image img,
-				.spotlights > section > .image-wrap > .image img {
+				.spotlights > section > .image img {
 					border-radius: 0;
 					display: block;
-					height: 100%;
-					object-fit: cover;
 					width: 100%;
 				}
 
-				.spotlights > section > .image:before,
-				.spotlights > section > .image-wrap:before {
+				.spotlights > section > .image:before {
 					background: rgba(36, 41, 67, 0.9);
 					content: '';
 					display: block;
@@ -2986,13 +2973,6 @@ input, select, textarea {
 					opacity: 0;
 					position: absolute;
 					top: 0;
-					width: 100%;
-				}
-
-				.spotlights > section > .image-wrap > .image {
-					display: block;
-					height: 100%;
-					position: relative;
 					width: 100%;
 				}
 
@@ -3040,8 +3020,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlights > section > .image,
-			.spotlights > section > .image-wrap {
+			.spotlights > section > .image {
 				width: 40%;
 			}
 
@@ -3053,8 +3032,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlights > section > .image,
-			.spotlights > section > .image-wrap {
+			.spotlights > section > .image {
 				width: 45%;
 			}
 
@@ -3070,8 +3048,7 @@ input, select, textarea {
 				display: block;
 			}
 
-				.spotlights > section > .image,
-				.spotlights > section > .image-wrap {
+				.spotlights > section > .image {
 					width: 100%;
 				}
 
